@@ -156,25 +156,61 @@
 
 
 #Abstraction
-from abc import ABC, abstractmethod
-class enforce(ABC):
-    @abstractmethod
-    def engineStart():
-        pass
+# from abc import ABC, abstractmethod
+# class enforce(ABC):
+#     @abstractmethod
+#     def engineStart():
+#         pass
 
-class bike(enforce):
-    def engineStart():
-        pass
+# class bike(enforce):
+#     def engineStart():
+#         pass
 
-class car(enforce):
-    def engineStart():
-        pass
+# class car(enforce):
+#     def engineStart():
+#         pass
 
-class truck(enforce):
-    def engineStart():
-        pass
+# class truck(enforce):
+#     def engineStart():
+#         pass
 
-obj1 = bike()
-obj2 = car()
-obj3 = truck()
+# obj1 = bike()
+# obj2 = car()
+# obj3 = truck()
+
+#dunder method
+
+# class Animals:
+#     def __init__(self, name):
+#         self.name = name
     
+#     def __str__(self):
+#         return f"Hello My name is {self.name}"
+
+# obj = Animals("Lion")
+# obj2 = Animals("tiger")
+
+# print(obj2)
+
+
+# class numbers:
+#     def __init__(self, num):
+#         self.num = num
+#     # def __add__(self, other):
+#     #     return self.num + other.num
+
+#     def __sub__(self, other):
+#         return self.num - other.num
+
+# num1 = numbers(10)
+# num2 = numbers(20)
+
+# print(num1 - num2)
+
+# a = 10
+
+# print(type(a))
+
+# print(dir(int))
+
+
